@@ -17,11 +17,11 @@ Este proyecto utiliza un **ESP32 C3** para recolectar datos de un sensor **Plant
 
 3. **Indicadores visuales**:
    - **NeoPixel** para estados BLE:
-   --azul para el inicio
-   --violeta para error
-   --va de rojo a verde segun el material particulado 
-   --parpadea 3 veces si esta desconetado
-   --cuando guarda en la micro sd disminulle la luz un poco
+   - azul para el inicio.
+   - violeta para error.
+   - cambia de verde a rojo segun el material particulado (segun norma chilena siendo 50ppm el nivel peligroso).
+   - parpadea 3 veces si esta desconetado.
+   - cuando guarda en la micro sd se atenua la luz un poco.
      
    - **OLED** para mostrar información de depuración como voltaje de batería, estado BLE, y valores de los sensores.
 
