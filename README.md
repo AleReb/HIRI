@@ -1,5 +1,5 @@
 # HIRI
-"Proyecto HIRI usa ESP32 C3 para recolectar datos ambientales con PMS5003ST y transmitirlos vía BLE. Los datos se guardan en una SD. NeoPixel muestra estados y la pantalla OLED es solo para depuración. Monitorea batería y entra en deep sleep si es necesario. Diseñado para proyectos IoT."
+"Proyecto HIRI usa ESP32 C3 para recolectar datos ambientales con PMS5003ST y transmitirlos vía BLE. Los datos se guardan en una SD. NeoPixel muestra estados y la pantalla OLED es solo para depuración. Monitorea batería y entra en deep sleep si es necesario. Diseñado para proyectos IoT. se adjuntan el diseño del shield"
 # Proyecto HIRI usando BLE - Versión 0.02
 
 ## Descripción
@@ -46,7 +46,7 @@ Este proyecto utiliza un **ESP32 C3** para recolectar datos de un sensor **Plant
 - Fuente de alimentación con monitoreo de voltaje
 
 ### Librerías
-Incluye las siguientes librerías en tu entorno de desarrollo (Arduino IDE o equivalente):
+Incluye las siguientes librerías en tu entorno de desarrollo (Arduino IDE o equivalente usando la placa esp32 c3 dev con la version 2.0.17 de la gestion de placas):
 
 - `Adafruit_NeoPixel`
 - `esp_adc_cal`
@@ -103,7 +103,7 @@ Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo `LICENS
 
 ## Contacto
 Si tienes preguntas o sugerencias, no dudes en contactar a:
-**Alejandro Rebolledo D.**
+**Alejandro Rebolledo. arebolledo@udd.cl**
 
 ## Registro de Cambios
 
@@ -111,3 +111,8 @@ Si tienes preguntas o sugerencias, no dudes en contactar a:
 - Ajustes en la lógica de guardado de datos.
 - Implementación de recepción de datos BLE (latitud, longitud, etc.).
 - Mejoras en los indicadores NeoPixel y mensajes OLED.
+
+### TO DO
+- Mejorar la gestion y registro de dispostivos.
+- Mejorar la forma de guardar los datos en el csv.
+
